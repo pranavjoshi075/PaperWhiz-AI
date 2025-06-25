@@ -28,7 +28,7 @@ def input_pdf_setup(uploaded_file):
 
 ## Streamlit App
 
-st.set_page_config(page_title="ATS Resume EXpert")
+st.set_page_config(page_title="AI-powered research analysis")
 st.header("PaperWhiz AI")
 uploaded_file=st.file_uploader("Upload your research paper",type=["pdf"])
 input_text=st.text_area("Ask your questions ",key="input")
